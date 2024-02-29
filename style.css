@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(224, 215, 215);
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: rgb(255, 217, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 22px 70px;
+}
+#center h1{
+    font-size: 50px;
+    line-height: 60px;
+}
+#center-in{
+    height: 125px;
+    /* background: rgb(77, 49, 204); */
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-top p{
+    font-weight: 600;
+    line-height: 50px;
+}
+
+#right{
+    width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    height: 36px;
+    margin: 6px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem :hover{
+    background-color: rgb(172, 163, 163);
+    font-size: 1.03rem;
+}
+.elem a{
+    color:black ;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover i{
+     opacity: 1;
+     background-color: rgb(172, 164, 164);
+    }
+
+    .elem:hover a{
+        text-decoration: underline;
+    }
+
+    #bottom{
+        height: 20%;
+        width: 100%;
+        /* margin-top: 140px; */
+        background-color: red;
+        background-image: url(https://media.istockphoto.com/id/1212347478/photo/young-woman-showing-light-blue-cotton-sweater-to-her-friend-during-sale.jpg?s=1024x1024&w=is&k=20&c=jTQlvGASNDg6uI5KheQ1WY5pMLwaRIP28YapVxjtKzQ=);
+        background-size:cover;
+        background-position: 0 35%;
+
+    
+    }
